@@ -1,0 +1,28 @@
+Hello Sir/Ma'am,
+I am Krinjal Ahlawat the main requirement of running this project are 
+1)some of the packages which includes
+tkinter 
+tkinter import filedialog
+tkinter import messagebox
+PIL
+PIL import Image
+PIL import ImageTk
+import threading
+import shutil
+2)After the installation in your device you need datasheet (mysql)connected and the table should be of the following format
+create table criminaldata(
+id int primary key auto_increment,
+`name` varchar(20) not null,
+`father name` varchar(25),
+`mother name` varchar(25),
+gender varchar(6) not null,
+dob varchar(10),
+`blood group` varchar(5),
+`identity mark` varchar(30) not null,
+nationality varchar(15) not null,
+`religion` varchar(15) not null,
+`crimes` text not null);
+make sure you are accessing in the Criminal-Identification-System-master
+Connect your sql using :import mysql.connector
+and give the data of this format:
+conn = mysql.connector.connect(user ='root', password='Admit@1234',host='localhost',database='criminal',port=3306)

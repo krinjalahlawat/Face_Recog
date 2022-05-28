@@ -1,0 +1,206 @@
+body{  
+  
+    max-width: 100%;
+    overflow-x: hidden;
+
+
+}  
+fieldset{ 
+background-color: black ;  
+
+font-family: 'Koulen', cursive;
+}
+header{  
+margin-top:10px  
+
+
+
+
+}
+img{  
+width: 170px;
+ margin-left: 550px;
+} 
+header h2{   margin-left: 568px;
+  font-size: 180%; 
+color: white;
+
+}   
+
+
+ul{  
+display: flex;  
+color:white;
+} 
+ul li{   
+ font-size: 130%;
+list-style: none; 
+margin: 10px;
+padding: 10px;  
+border-radius: 20px; 
+
+
+}  
+ul li a{ 
+  text-decoration: none; 
+  color: white;
+}  
+ul li:hover{  
+background-color: wheat; 
+color: gray;
+
+
+}   
+footer{
+ display: flex; 
+ margin-top: 100px;  
+ text-align: center; 
+ color: white;
+
+}
+.security{ 
+box-shadow: 10px 1px 8px 10px  grey;
+border: 2px solid black; 
+width: 20vw; 
+margin-left: 80px; 
+background-color:  #F7CAC9;
+}   
+.security:hover{ 
+ animation-name: security; 
+ animation-duration: 2s;
+}
+.student{  
+
+box-shadow: 10px 1px 8px 10px  grey;
+border: 2px solid black; 
+width: 20vw; 
+margin-left: 200px; 
+background-color: RGB(146, 168, 209);
+}  
+.student:hover{
+animation-name: student; 
+ animation-duration: 2s;
+}
+.criminal{  
+box-shadow: 10px 1px 8px 10px  grey;
+border: 2px solid black; 
+width: 20vw; 
+margin-left: 160px; 
+background-color: black; 
+
+}  
+.criminal:hover{
+animation-name: criminal; 
+ animation-duration: 2s;
+} 
+@keyframes security{ 
+50%{ 
+  background-color: white; 
+  box-shadow: 0px 0px 0px 0px   #F7CAC9; 
+  color: black; 
+  border-radius: 30px;
+}
+} 
+@keyframes student{ 
+50%{  
+    background-color: white; 
+  box-shadow: 0px 0px 0px 0px RGB(146, 168, 209) ; 
+  color: black; 
+  border-radius: 30px;
+
+}
+} 
+@keyframes criminal{ 
+50% { 
+background-color: white; 
+box-shadow: 0px 0px 0px 0px black; 
+color: black; 
+border-radius: 30px;
+}
+}
+.security img{ 
+
+ position: relative; 
+ right: 543px; 
+ width: 240px; 
+ height: 219px; 
+ padding-top: 10px;
+} 
+.student img{
+ position: relative ; 
+ right: 542px; 
+ width: 240px; 
+ height: 219px; 
+ padding-top: 10px;
+} 
+.criminal img{ position: relative;
+ right: 542px; 
+ width: 240px;   
+ height: 219px;
+ padding-top: 10px;
+
+}  
+.button1{
+  border-radius: 30px;  
+  margin-top: 37px; 
+  margin-right: 3px;
+  
+} 
+.button2{
+  border-radius: 30px;  
+  margin-top: 37px;
+ 
+}  
+.button3{
+  border-radius: 30px;  
+  margin-bottom: 5px
+;
+}
+.button1:hover{
+  background-color: black; 
+  color: white; 
+  cursor: pointer; 
+  border-radius: 30px;
+}
+.button2:hover{
+  background-color: black; 
+  color: white; 
+  cursor: pointer;
+} 
+.button3:hover{
+  background-color: black; 
+  color: white; 
+  cursor: pointer;
+}  
+
+
+.aboutus{ 
+ background-color: black;  
+color: white;
+
+}
+ .aboutus h1{ 
+   margin-left: 550px;
+
+ }  
+ .aboutus h3{ 
+   margin-left: 140px;
+ }
+ .aboutus p{ 
+   margin-left: 320px;
+ }
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+

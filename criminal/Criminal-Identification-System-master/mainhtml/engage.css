@@ -1,0 +1,153 @@
+body{  
+  
+    max-width: 100%;
+    overflow-x: hidden;
+
+
+}  
+fieldset{ 
+background-color: black ;  
+
+font-family: 'Koulen', cursive;
+}
+header{  
+margin-top:10px 
+
+
+}
+img{  
+width: 120px;
+ margin-left: 660px;
+} 
+header h2{   
+margin-left: 620px; 
+color: white;
+
+}   
+
+
+ul{  
+display: flex;  
+color:white;
+} 
+ul li{   
+ font-size: 130%;
+list-style: none; 
+margin: 10px;
+padding: 10px;  
+border-radius: 20px; 
+
+
+}   
+ul li:hover{  
+background-color: wheat; 
+color: gray;
+
+
+}   
+footer{
+ display: flex; 
+ margin-top: 100px;  
+ text-align: center; 
+ color: white;
+
+}
+.security{ 
+box-shadow: 10px 1px 8px 10px  grey;
+border: 2px solid black; 
+width: 20vw; 
+margin-left: 80px; 
+background-color:  #F7CAC9;
+}   
+.security:hover{ 
+ animation-name: security; 
+ animation-duration: 2s;
+}
+.student{  
+
+box-shadow: 10px 1px 8px 10px  grey;
+border: 2px solid black; 
+width: 20vw; 
+margin-left: 200px; 
+background-color: RGB(146, 168, 209);
+}  
+.student:hover{
+animation-name: student; 
+ animation-duration: 2s;
+}
+.criminal{  
+box-shadow: 10px 1px 8px 10px  grey;
+border: 2px solid black; 
+width: 20vw; 
+margin-left: 200px; 
+background-color: black; 
+
+}  
+.criminal:hover{
+animation-name: criminal; 
+ animation-duration: 2s;
+} 
+@keyframes security{ 
+50%{ 
+  background-color: white; 
+  box-shadow: 0px 0px 0px 0px   #F7CAC9; 
+  color: black; 
+  border-radius: 30px;
+}
+} 
+@keyframes student{ 
+50%{  
+    background-color: white; 
+  box-shadow: 0px 0px 0px 0px RGB(146, 168, 209) ; 
+  color: black; 
+  border-radius: 30px;
+
+}
+} 
+@keyframes criminal{ 
+50% { 
+background-color: white; 
+box-shadow: 0px 0px 0px 0px black; 
+color: black; 
+border-radius: 30px;
+}
+}
+.security img{ 
+
+ position: relative; 
+ right: 652px; 
+ width: 290px; 
+ height: 219px; 
+ padding-top: 10px;
+} 
+.student img{
+ position: relative ; 
+ right: 652px; 
+ width: 290px; 
+ height: 219px; 
+ padding-top: 10px;
+} 
+.criminal img{ position: relative;
+ right: 652px; 
+ width: 290px;  
+ padding-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+

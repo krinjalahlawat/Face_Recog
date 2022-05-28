@@ -1,0 +1,21 @@
+body{ 
+    background-color: antiquewhite;
+} 
+h1{ 
+    margin-left: 550px;
+}  
+div{ 
+    display: flex; 
+   
+}
+img{ 
+        width: 40vw;
+} 
+p{ 
+    font-size: 200%; 
+    color: darkcyan; 
+    margin-left: 50px;
+} 
+span{ 
+    font-size: 220%;
+}
